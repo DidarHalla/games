@@ -1,0 +1,29 @@
+.wrapper-left-menu {
+  position: static;
+  top: 0;
+  margin: 70px 0 0 20px;
+}
+
+.home,
+.reviews,
+.new-releases {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-weight: 700;
+  display: block;
+  color: aliceblue;
+  text-wrap: nowrap;
+}
+
+.home,
+.reviews {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.new-releases-items{
+  display: flex;
+  color: aliceblue;
+}
